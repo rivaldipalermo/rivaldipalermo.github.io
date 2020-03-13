@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    background-color: #2D3142;
+    top: 0;
+    padding: 10px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 90px;
+}
+
+nav ul{
+    text-align: right;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 40px;
+    height: 500px;
+    margin: 70px auto 0 0;
+    margin-left: 150px;
+}
+
+footer{
+    background-color: #2D3142;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.image-me{
+    width: 30%;
+    float: left;
+}
+
+.greeting{
+    width: 70%;
+    float: right;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.greeting h1{
+    font-size: 24pt;
+}
+
+.greeting p{
+    text-align: left;
+    padding-left: 70px;
+    margin-top: -12px;
+}
+
+.card{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;    
+}
+
+.contents{
+    background-color: #28262C;
+    border-radius: 30px;
+    color: white;
+}
+
+section{
+    padding: 20px;
+}
+
+.explore{
+    background-color: #28262C;
+    padding: 10px;
+    color: white;
+    height: 400px;
+}
+
+.btn{
+    background-color: #2A628F;
+    border: none;
+    padding: 65px 65px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #3E92CC;
+    color: white;
+}
+
+.spacing{
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 1000px){
+    nav li{
+        margin-right: 25px;
+    }
+    .jumbotron{
+        padding: 40px 40px 40px 40px;
+        margin: 10px;
+        height: 250px;
+        font-size: 8pt;
+    }
+
+    .image-me img{
+        width: 120%;
+        padding-top: 30px;
+    }
+
+    .greeting{
+        margin: 0 auto;
+    }
+
+    .greeting h1{
+        font-size: 12pt;
+        padding : 0 0 0 40px;
+    }
+
+    .greeting p{
+        font-size: 8pt;
+        padding : 0 0 0 50px;
+    }
+
+    .explore{
+        font-size: 8pt;
+        height: 200px;
+    }
+    
+    .btn{ 
+        font-size: 8pt;
+        text-align: center;
+        width: 30%;
+        height: 30%;
+        padding: 30px 30px;
+        margin: 0 8px 0 0;
+    }
+
+    footer{
+        font-size: 8pt;
+    }
+
+    .card{
+        font-size: 10pt;
+        margin: 10px;
+        padding: 2px 20px 20px 20px;
+    }
+
+    .contents{
+        font-size: 8pt;
+    }
+}
